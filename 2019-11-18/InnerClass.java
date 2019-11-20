@@ -1,6 +1,6 @@
 //外部类HelloWorld
 public class InnerClass{
-	
+
 	// 内部类Inner，类Inner在类HelloWorld的内部
 	public class Inner{
 		// 内部类的方法
