@@ -7,7 +7,7 @@ public static void ProOrderNoR(TreeNode root){
 		//走到空时结束
 		while(curNode != null){
 			//访问根节点
-			System.out.println(curNode.value);
+			System.out.println(curNode.value + " ");
 			//访问根的左子树
 			st.push(curNode);
 			curNode.left = curNode; 
@@ -17,4 +17,5 @@ public static void ProOrderNoR(TreeNode root){
 		//访问栈顶元素的右子树
 		curNode = curNode.right;
 	}
+	System.out.println();
 }
