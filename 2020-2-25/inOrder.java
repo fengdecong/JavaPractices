@@ -8,8 +8,8 @@ public static void inOrder(TreeNode root){
                 curNode = curNode.left;
             }
             curNode = st.pop();
-                System.out.println(curNode.value+" ");
-                curNode = curNode.right;
+            System.out.println(curNode.value+" ");
+            curNode = curNode.right;
         }
         System.out.println();
     }
